@@ -305,9 +305,9 @@ button:active{
     }
 
     #button-val {
-        width: 162px;
-        height: 2.7rem;
-        font-size: 28px;
+        width: 160px;
+        height: 2.5rem;
+        font-size: 25px;
     }
 
     .reset-button {
@@ -326,7 +326,7 @@ button:active{
     }
 
     .value {
-        width: 300px;
+        width: 290px;
         font-size: 30px;
         height: 2.8rem;
     }
@@ -359,7 +359,7 @@ button:active{
     }
 
     ::placeholder {
-        font-size: 28px;
+        font-size: 25px;
     }
 
 }
