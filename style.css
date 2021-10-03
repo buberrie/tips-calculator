@@ -253,6 +253,7 @@ button:active{
     }
     
     #result {
+        justify-self: center;
         background-color: hsl(183, 100%, 15%);
         position: relative;
         border-radius: 15px;
@@ -288,7 +289,7 @@ button:active{
     .bill-box {
         border: none;
         background-color:hsl(189, 41%, 97%);
-        width: 98%;
+        width: 99%;
         border-radius: 5px;
         position: relative;
         top: 5px;
@@ -326,7 +327,7 @@ button:active{
     }
 
     .value {
-        width: 75%;
+        width: 76%;
         font-size: 30px;
         height: 2.8rem;
     }
@@ -363,7 +364,7 @@ button:active{
     }
     
     .error-msg {
-        right: 10px;
+        right: 20px;
     }
 
 }
