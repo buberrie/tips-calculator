@@ -237,7 +237,7 @@ button:active{
 
 @media (max-width:840px) {
     .container {
-        width: 80%;
+        width: 90%;
         height: inherit;
         top: 0;
         right: 0;
@@ -305,7 +305,7 @@ button:active{
     }
 
     #button-val {
-        width: 44%;
+        width: 42%;
         height: 2.5rem;
         font-size: 25px;
     }
@@ -327,7 +327,7 @@ button:active{
     }
 
     .value {
-        width: 80%;
+        width: 75%;
         font-size: 30px;
         height: 2.8rem;
     }
