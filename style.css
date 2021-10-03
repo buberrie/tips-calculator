@@ -305,14 +305,13 @@ button:active{
     }
 
     #button-val {
-        width: 42%;
+        width: 40%;
         height: 2.5rem;
         font-size: 25px;
     }
 
     .reset-button {
-        position: relative;
-        top: 45px;
+        top: 47px;
         width: 100%;
         height: 3rem;
         font-size: 25px;
