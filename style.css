@@ -236,7 +236,7 @@ button:active{
 /* mobile veiw*/
 
 @media (max-width:840px) {
-    .container {
+   .container {
         width: 90%;
         height: inherit;
         top: 0;
@@ -253,12 +253,12 @@ button:active{
     }
     
     #result {
-        justify-self: center;
         background-color: hsl(183, 100%, 15%);
         position: relative;
+        justify-self: center;
         border-radius: 15px;
         color: white;
-        width: 85%; 
+        width: 84.5%; 
         padding: 20px 30px 70px 30px;
         grid-column: 1/2;
         grid-row: 5/7;
@@ -289,7 +289,7 @@ button:active{
     .bill-box {
         border: none;
         background-color:hsl(189, 41%, 97%);
-        width: 99%;
+        width: 98%;
         border-radius: 5px;
         position: relative;
         top: 5px;
@@ -299,7 +299,7 @@ button:active{
         background-color: hsl(183, 100%, 15%);
         color:hsl(189, 41%, 97%);
         border: none;
-        width: 47%;
+        width: 48%;
         height: 3.4rem;
         border-radius: 5px;
         font-size: 28px;
@@ -312,7 +312,7 @@ button:active{
     }
 
     .reset-button {
-        top: 47px;
+        top: 45px;
         width: 100%;
         height: 3rem;
         font-size: 25px;
@@ -327,7 +327,7 @@ button:active{
     }
 
     .value {
-        width: 76%;
+        width: 85%;
         font-size: 30px;
         height: 2.8rem;
     }
@@ -362,7 +362,7 @@ button:active{
     ::placeholder {
         font-size: 25px;
     }
-    
+
     .error-msg {
         right: 20px;
     }
