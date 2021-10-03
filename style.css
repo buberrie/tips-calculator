@@ -329,7 +329,7 @@ button:active{
     .value {
         width: 80%;
         font-size: 30px;
-        height: 2.8rem;
+        height: 2.7rem;
     }
 
     .total {
@@ -341,7 +341,7 @@ button:active{
     }
     
     .small {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 600;
     }
 
@@ -364,6 +364,7 @@ button:active{
     }
 
     .error-msg {
+        font-size: 12px;
         right: 10px;
     }
 
