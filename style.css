@@ -237,7 +237,7 @@ button:active{
 
 @media (max-width:840px) {
     .container {
-        width: 375px;
+        width: 80%;
         height: inherit;
         top: 0;
         right: 0;
@@ -257,7 +257,7 @@ button:active{
         position: relative;
         border-radius: 15px;
         color: white;
-        width: 84%; 
+        width: 85%; 
         padding: 20px 30px 70px 30px;
         grid-column: 1/2;
         grid-row: 5/7;
@@ -288,7 +288,7 @@ button:active{
     .bill-box {
         border: none;
         background-color:hsl(189, 41%, 97%);
-        width: 345px;
+        width: 98%;
         border-radius: 5px;
         position: relative;
         top: 5px;
@@ -298,15 +298,15 @@ button:active{
         background-color: hsl(183, 100%, 15%);
         color:hsl(189, 41%, 97%);
         border: none;
-        width: 170px;
-        height: 3.3rem;
+        width: 48%;
+        height: 3.4rem;
         border-radius: 5px;
         font-size: 28px;
     }
 
     #button-val {
-        width: 142px;
-        height: 2.2rem;
+        width: 46%;
+        height: 2.5rem;
         font-size: 25px;
     }
 
@@ -320,13 +320,14 @@ button:active{
     }
 
     #tips-percentage {
+        flex-wrap: wrap;
         width: 100%;
-        gap: 10px;
+        gap: 12px;
         top: 15px;
     }
 
     .value {
-        width: 285px;
+        width: 85%;
         font-size: 30px;
         height: 2.8rem;
     }
