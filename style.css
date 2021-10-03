@@ -237,7 +237,7 @@ button:active{
 
 @media (max-width:840px) {
    .container {
-        width: 90%;
+        width: 95%;
         height: inherit;
         top: 0;
         right: 0;
