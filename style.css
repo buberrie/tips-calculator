@@ -361,5 +361,9 @@ button:active{
     ::placeholder {
         font-size: 25px;
     }
+    
+    .error-msg {
+        right: 20px;
+    }
 
 }
