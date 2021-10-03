@@ -327,7 +327,7 @@ button:active{
     }
 
     .value {
-        width: 85%;
+        width: 80%;
         font-size: 30px;
         height: 2.8rem;
     }
@@ -364,7 +364,7 @@ button:active{
     }
 
     .error-msg {
-        right: 20px;
+        right: 10px;
     }
 
 }
