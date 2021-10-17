@@ -26,14 +26,19 @@ Users should be able to:
 - Calculate the correct tip and total cost of the bill per person
 
 ### Screenshot
+DESKTOP VIEW
+
+![Tip calculator app - desktop view](https://user-images.githubusercontent.com/83277559/137622818-6e6ffb1c-2453-4085-8c6d-ecfc169a3089.jpg)
+
 MOBILE VIEW
 
-DESKTOP VIEW
+![Tip calculator app - Mobile view](https://user-images.githubusercontent.com/83277559/137622873-a8591680-a40b-4212-9cc9-239274611653.jpg)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/buberrie/tips-calculator
+- Live Site URL: https://tech-girl-tips-calculator.netlify.app/
 
 ## My process
 
