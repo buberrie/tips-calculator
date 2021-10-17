@@ -4,56 +4,122 @@
 body {
     background-color:  hsl(185, 41%, 84%);
     font-family: 'space mono',sans-serif;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
 }
+
+h1 {
+    
+    margin: 9.9rem 0 4.8rem 0;
+    text-align: center;   
+}
+
+#logo {
+    width: 89px;
+}
+
 
 .container {
     background-color:  hsl(0, 0%, 100%);
-    width: 130vh;
-    height: 62vh;
+    width: 60%;
+    height: inherit;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;    
     position: relative;
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 15px;
+    padding: 35px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 
-h1 {
-    margin: 3rem 0;
-    text-align: center;   
+.bill-area {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    position: relative;
+    padding: 10px;
+    top: 2px;
 }
 
-#logo {
-    width: 100px;
+.select-area {
+    grid-column: 1/2;
+    grid-row: 3/6;
+    position: relative;
+    padding: 20px;
+    bottom: 5px;
+}
+
+.number-area {
+    grid-column: 1/2;
+    grid-row: 6/8;
+    position: relative;
+    padding: 20px;
+    top: 10px;
+}
+
+#result {
+    background-color: hsl(183, 100%, 15%);
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/8;
+    border-radius: 15px;
+    color: white;
+    width: 82%; 
+    padding: 40px;
+}
+
+.bill-box {
+    border: none;
+    background-color:hsl(189, 41%, 97%);
+    padding: 3px;
+    width: 91%;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.value {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: hsl(183, 100%, 15%);
+    font-weight: 600;
+    width: 90%;
+    text-align: right;
+    cursor: pointer;
+    font-size: 25px;
+    height: 2.5rem;
+    font-family: 'space mono', sans-serif;
 }
 
 .big {
     display: block;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    position: relative;
 }
 
 .small {
-    font-size: 16px;
+    font-size: 15px;
     color: hsl(183, 22%, 34%);
     font-weight: 600;
 }
 
 .total {
-    font-size: 60px;
+    font-size: 45px;
     color: hsl(172, 67%, 45%);
+    font-weight: 900;
 }
 
 button {
     background-color: hsl(183, 100%, 15%);
     color:hsl(189, 41%, 97%);
     border: none;
-    width: 28.5%;
-    height: 3.2rem;
+    width: 28.6%;
+    height: 3rem;
     border-radius: 5px;
     font-size: 25px;
     cursor: pointer;
@@ -61,7 +127,7 @@ button {
 }
 
 #button-val {
-    width: 27.5%;
+    width: 27%;
     height: 2.8rem;
     border: none;
     outline: none;
@@ -75,85 +141,28 @@ button {
     color: hsl(183, 100%, 15%);
 }
 
-.bill-box {
-    border: none;
-    background-color:hsl(189, 41%, 97%);
-    padding: 3px;
-    width: 91%;
-    border-radius: 5px;
-    position: relative;
-    top: 15px;
-}
-
-.value {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: hsl(183, 100%, 15%);
-    font-weight: 600;
-    width: 93%;
-    text-align: right;
-    cursor: pointer;
-    font-size: 25px;
-    height: 3rem;
-    font-family: 'space mono', sans-serif;
-}
-
-#result {
-    background-color: hsl(183, 100%, 15%);
-    position: relative;
-    grid-column: 2/3;
-    grid-row: 1/5;
-    border-radius: 10px;
-    color: white;
-    width: 85%; 
-    padding: 35px;
-    
-}
-
 .reset-button {
     position: relative;
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
-    top: 35%;
+    font-size: 20px;
+    top: 45%;
     width: 100%;
     font-weight: 600;
     font-family: 'space mono', sans-serif;   
 }
 
-.select-area {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    position: relative;
-    padding: 20px;
-    top: 3px;
-}
-
-.bill-area {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: relative;
-    padding: 20px;
-}
-
-.number-area {
-    grid-column: 1/2;
-    grid-row: 4/5;
-    position: relative;
-    padding: 20px;
-}
-
 #tips-percentage {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 15px;
     position: relative;
-    top: 15px;
+    top: 14px;
 }
 
 ::placeholder {
-    color:  hsl(186, 23%, 43%);
-    font-size: 22px;
+    color:  hsl(186, 27%, 30%);
+    font-size: 25px;
 }
 
 .label-wrapper {
@@ -178,17 +187,17 @@ button {
 }
 
 .img {
-    width: 10px;
+    width: 12px;
     position: relative;
     left: 15px;
     bottom: 5px;   
 }
 
 .white {
-    color: hsl(186, 23%, 75%);
+    color: hsl(186, 24%, 70%);
     font-weight: 200;
     font-size: 12px;
-    letter-spacing: 2px;
+    position: relative;
 } 
 
 .wrapper{
@@ -200,7 +209,7 @@ button {
 
 .bottom {
     position: relative;
-    top: 20px;
+    top: 35px;
 }
 
 .attribution { 
@@ -236,8 +245,23 @@ button:active{
 /* mobile veiw*/
 
 @media (max-width:840px) {
-   .container {
-        width: 95%;
+    body{
+        width: 375px;
+        height: 933px;
+    }
+
+    h1 {
+    
+        margin: 3rem 0 1.6rem 0;
+        text-align: center;   
+    }
+    
+    #logo {
+        width: 89px;
+    }
+
+    .container {
+        width: 100%;
         height: inherit;
         top: 0;
         right: 0;
@@ -245,23 +269,19 @@ button:active{
         left: 0;
         margin: auto;    
         position: relative;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 20px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(6,1fr);
+        grid-template-rows: repeat(7,1fr);
     }
-    
-    #result {
-        background-color: hsl(183, 100%, 15%);
+
+    .bill-area {
         position: relative;
-        justify-self: center;
-        border-radius: 15px;
-        color: white;
-        width: 84.5%; 
-        padding: 20px 30px 70px 30px;
+        padding: 10px;
         grid-column: 1/2;
-        grid-row: 5/7;
+        grid-row: 1/2;
+        justify-self: center;
     }
     
     .select-area {
@@ -269,14 +289,9 @@ button:active{
         padding: 10px;
         grid-column: 1/2;
         grid-row: 2/4;
-        top: 0px;
-    }
-    
-    .bill-area {
-        position: relative;
-        padding: 10px;
-        grid-column: 1/2;
-        grid-row: 1/2;
+        top: 0;
+        bottom: 10px;
+        justify-self: center;
     }
     
     .number-area {
@@ -284,6 +299,22 @@ button:active{
         grid-row: 4/5;
         position: relative;
         padding: 10px;
+        justify-self: center;
+        top: 35px;
+    }
+
+    #result {
+        background-color: hsl(183, 100%, 15%);
+        position: relative;
+        justify-self: center;
+        border-radius: 15px;
+        color: white;
+        width: 80%; 
+        height: 220px;
+        padding: 40px 30px 0 30px;
+        grid-column: 1/2;
+        grid-row: 5/8;
+        top: 45px;
     }
 
     .bill-box {
@@ -295,41 +326,41 @@ button:active{
         top: 5px;
     }
 
+    .value {
+        width: 85%;
+        font-size: 30px;
+        height: 2.5rem;
+    }
+
     button {
         background-color: hsl(183, 100%, 15%);
         color:hsl(189, 41%, 97%);
         border: none;
-        width: 48%;
-        height: 3.4rem;
+        width: 47%;
+        height: 3rem;
         border-radius: 5px;
-        font-size: 28px;
+        font-size: 25px;
     }
 
     #button-val {
-        width: 39%;
+        width: 40%;
         height: 2.5rem;
         font-size: 25px;
     }
 
     .reset-button {
-        top: 45px;
+        top: 50px;
         width: 100%;
-        height: 3rem;
-        font-size: 25px;
+        height: 2.8rem;
+        font-size: 18px;
         font-weight: 600; 
     }
 
     #tips-percentage {
         flex-wrap: wrap;
         width: 100%;
-        gap: 12px;
-        top: 15px;
-    }
-
-    .value {
-        width: 80%;
-        font-size: 30px;
-        height: 2.7rem;
+        gap: 15px;
+        top: 20px;
     }
 
     .total {
@@ -337,18 +368,19 @@ button:active{
     }
 
     .big {
-        font-size: 1rem; 
+        font-size: 0.9rem;
+        font-weight: 600; 
     }
     
     .small {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 600;
     }
 
     .white {
-        color: hsl(184, 23%, 76%);
+        color: hsl(186, 18%, 65%);
         font-weight: 200;
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: 0px;
     } 
 
@@ -364,8 +396,18 @@ button:active{
     }
 
     .error-msg {
-        font-size: 12px;
-        right: 10px;
+        right: 20px;
+    }
+
+    .total {
+        font-size: 32px;
+        color: hsl(172, 67%, 45%);
+        font-weight: 900;
+    }
+
+    .bottom{
+        position: relative;
+        top: 20px;
     }
 
 }
