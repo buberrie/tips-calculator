@@ -216,6 +216,7 @@ button {
       font-size: 11px; 
     text-align: center;
     position: relative;
+    margin-top: 50px;
  }
 .attribution a { color: hsl(228, 45%, 44%); }
 
