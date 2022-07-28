@@ -139,6 +139,7 @@ button {
     font-family: 'space mono', sans-serif;
     font-weight: 600;
     color: hsl(183, 100%, 15%);
+    border: solid 2px transparent;
 }
 
 .reset-button {
