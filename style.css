@@ -73,7 +73,7 @@ h1 {
 }
 
 .bill-box {
-    border: none;
+    border: solid 2px transparent;
     background-color:hsl(189, 41%, 97%);
     padding: 3px;
     width: 91%;
